@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom", "es2017"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
+
+// {
+//   "compilerOptions": {
+//     "module": "ES6",
+//     "target": "es2016",
+//     "lib": ["ES2020", "DOM"],
+//     "jsx": "react",
+//     "allowJs": true,
+//     "declaration": true,
+//     "declarationDir": "types",
+//     "sourceMap": true,
+//     "allowSyntheticDefaultImports": true,
+//     "noEmit": false,
+//     "outDir": "./dist",
+//     "moduleResolution": "node",
+//     "noImplicitAny": false
+//   },
+//   "include": ["src/**/*.ts"]
+// }
